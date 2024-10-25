@@ -1,16 +1,24 @@
-# newbeza
+# 行動電源輔助App
 
-A new Flutter project.
+這是一款行動電源輔助用App，使用Android Studio完成作品，使用者可利用藍芽連結行動電源，查看行動電源詳細資訊，如確切剩餘電量、輸出功率、內部溫度等等，若內部溫度過高，亦會在App中提醒使用者防範。
 
-## Getting Started
+## 功能介紹
 
-This project is a starting point for a Flutter application.
+主要功能分為三大部分：
 
-A few resources to get you started if this is your first Flutter project:
+1. **連接行動電源並查看資訊**  
+   透過藍芽連接帶有藍芽模組的行動電源，連線成功後可接收過熱通知及查看該設備資訊。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **客服聯繫**  
+   可填寫使用行動電源或是App上所遇到的問題，並聯動官方Messager及Line帳號，並把填寫的客服表單以訊息方式寄出。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **編輯個人資訊**  
+   成功登入後可編輯個人詳細資料，填入暱稱、頭貼、聯絡方式等等資訊，個人資料與帳戶管理部分使用firebase資料庫管理儲存，另外帳戶登入支援臉書及google第三方登入，亦可利用email認證連接官方網站所建立的帳戶。
+
+## 未來展望
+
+1. **內建AI客服**  
+   能在App串接GPT-4o等生成式AI模型，一些簡單的疑難雜症可透過與AI聊天排解，節省人力成本同時也增進使用者使用體驗。
+
+2. **線上購物平台**  
+   可提供線上購物平台，使用者可直接在App購買行動電源，並串接金流系統完成訂購。
