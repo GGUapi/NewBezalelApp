@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "443853206139",
+    "firebase_url": "https://bezalelai-default-rtdb.firebaseio.com",
+    "project_id": "bezalelai",
+    "storage_bucket": "bezalelai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443853206139:android:2a5721387c4e0f7643a8de",
+        "android_client_info": {
+          "package_name": "com.example.newbeza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLCHmUVXd3Sapyz2rzHyKm9gIekNF_s94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
